@@ -1,0 +1,341 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="SAI MANDAR CHINESE CORNER - Premium Chinese street food in Bhayandar. Order via WhatsApp for fast delivery and party orders."
+    />
+    <meta
+      name="keywords"
+      content="Chinese food, Bhayandar, street food, Chinese bhel, Manchurian, WhatsApp order"
+    />
+    <title>SAI MANDAR CHINESE CORNER</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="nav-inner container">
+        <a href="#home" class="brand">SAI MANDAR CHINESE CORNER</a>
+        <button class="nav-toggle" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="nav-menu">
+          <a href="#home">Home</a>
+          <a href="#menu">Menu</a>
+          <a href="#reviews">Reviews</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="home" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="hero-content container">
+          <span class="eyebrow">Premium Chinese Street Food</span>
+          <h1>Fresh &bull; Tasty &bull; Delicious</h1>
+          <p>Best Chinese Street Food In Bhayandar</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#menu">View Menu</a>
+            <a class="btn btn-secondary" href="#whatsapp-order"
+              >Order On WhatsApp</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section id="menu" class="section menu-section">
+        <div class="container">
+          <div class="section-header">
+            <span>our specialties</span>
+            <h2>Chef's Choice Menu</h2>
+            <p>
+              Discover premium Chinese flavors served with bold spices and
+              street-style charm.
+            </p>
+          </div>
+          <div class="menu-grid">
+            <article class="menu-card">
+              <img src="pav1.png" alt="Schezwan Pav" />
+              <div class="menu-card-content">
+                <h3>Schezwan Pav</h3>
+                <span class="price">₹15</span>
+              </div>
+            </article>
+            <article class="menu-card">
+              <img src="gravy pav.png" alt="Manchurian Pav" />
+              <div class="menu-card-content">
+                <h3>Manchurian Pav</h3>
+                <span class="price">₹15</span>
+              </div>
+            </article>
+            <article class="menu-card">
+              <img src="gravy pav.png" alt="Manchurian Gravy Pav" />
+              <div class="menu-card-content">
+                <h3>Manchurian Gravy Pav</h3>
+                <span class="price">₹20</span>
+              </div>
+            </article>
+            <article class="menu-card">
+              <img src="mix bhel.png" alt="Mix Chinese Bhel" />
+              <div class="menu-card-content">
+                <h3>Mix Chinese Bhel</h3>
+                <span class="price">₹15</span>
+              </div>
+            </article>
+            <article class="menu-card">
+              <img src="bhel.png" alt="Fry Noodles Chinese Bhel" />
+              <div class="menu-card-content">
+                <h3>Fry Noodles Chinese Bhel</h3>
+                <span class="price">₹20</span>
+              </div>
+            </article>
+            <article class="menu-card">
+              <img src="manchurian.png" alt="Manchurian Plate" />
+              <div class="menu-card-content">
+                <h3>Manchurian Plate</h3>
+                <span class="price">₹20</span>
+              </div>
+            </article>
+            <article class="menu-card">
+              <img src="gravy.png" alt="Manchurian Gravy Plate" />
+              <div class="menu-card-content">
+                <h3>Manchurian Gravy Plate</h3>
+                <span class="price">₹30</span>
+              </div>
+            </article>
+            <article class="menu-card">
+              <img src="manchurian bhel.png" alt="Manchurian Chinese Bhel" />
+              <div class="menu-card-content">
+                <h3>Manchurian Chinese Bhel</h3>
+                <span class="price">₹25</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="whatsapp-order" class="section order-section">
+        <div class="container split-grid">
+          <div class="order-intro">
+            <span>order now</span>
+            <h2>Quick WhatsApp Ordering</h2>
+            <p>
+              Fill in your details and place your order instantly through
+              WhatsApp.
+            </p>
+          </div>
+          <form id="order-form" class="order-form">
+            <label for="customer-name">Customer Name</label>
+            <input
+              type="text"
+              id="customer-name"
+              name="customerName"
+              placeholder="Your name"
+              required
+            />
+
+            <label for="customer-phone">Phone Number</label>
+            <input
+              type="tel"
+              id="customer-phone"
+              name="customerPhone"
+              placeholder="+91 12345 67890"
+              required
+            />
+
+            <label for="menu-item">Menu Item</label>
+            <select id="menu-item" name="menuItem" required>
+              <option value="Schezwan Pav">Schezwan Pav</option>
+              <option value="Manchurian Pav">Manchurian Pav</option>
+              <option value="Manchurian Gravy Pav">Manchurian Gravy Pav</option>
+              <option value="Mix Chinese Bhel">Mix Chinese Bhel</option>
+              <option value="Fry Noodles Chinese Bhel">
+                Fry Noodles Chinese Bhel
+              </option>
+              <option value="Manchurian Plate">Manchurian Plate</option>
+              <option value="Manchurian Gravy Plate">
+                Manchurian Gravy Plate
+              </option>
+              <option value="Manchurian Chinese Bhel">
+                Manchurian Chinese Bhel
+              </option>
+            </select>
+
+            <label for="quantity">Quantity</label>
+            <input
+              type="number"
+              id="quantity"
+              name="quantity"
+              min="1"
+              value="1"
+              required
+            />
+
+            <label for="order-notes">Notes</label>
+            <textarea
+              id="order-notes"
+              name="orderNotes"
+              rows="4"
+              placeholder="Any special instructions..."
+            ></textarea>
+
+            <button type="submit" class="btn btn-primary">
+              Order On WhatsApp
+            </button>
+          </form>
+        </div>
+      </section>
+
+      <section class="section reviews-section" id="reviews">
+        <div class="container">
+          <div class="section-header">
+            <span>customer love</span>
+            <h2>Reviews & Feedback</h2>
+            <p>
+              Real reviews from guests who love our premium Chinese street food.
+            </p>
+          </div>
+          <div class="reviews-grid">
+            <article class="review-card">
+              <p class="stars">⭐⭐⭐⭐⭐</p>
+              <p>Amazing taste and affordable prices.</p>
+            </article>
+            <article class="review-card">
+              <p class="stars">⭐⭐⭐⭐⭐</p>
+              <p>Best Chinese Bhel in Bhayandar.</p>
+            </article>
+            <article class="review-card">
+              <p class="stars">⭐⭐⭐⭐⭐</p>
+              <p>Perfect for Party Orders.</p>
+            </article>
+          </div>
+
+          <div class="review-form-wrap">
+            <h3>Leave a Review</h3>
+            <form id="review-form" class="review-form">
+              <label for="review-name">Name</label>
+              <input
+                type="text"
+                id="review-name"
+                name="reviewName"
+                placeholder="Your name"
+                required
+              />
+
+              <label for="review-rating">Rating</label>
+              <select id="review-rating" name="reviewRating" required>
+                <option value="5">5 Stars</option>
+                <option value="4">4 Stars</option>
+                <option value="3">3 Stars</option>
+                <option value="2">2 Stars</option>
+                <option value="1">1 Star</option>
+              </select>
+
+              <label for="review-text">Review Text</label>
+              <textarea
+                id="review-text"
+                name="reviewText"
+                rows="4"
+                placeholder="Share your experience..."
+                required
+              ></textarea>
+
+              <button type="submit" class="btn btn-secondary">
+                Submit Review
+              </button>
+              <p class="form-note"></p>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact-section">
+        <div class="container split-grid contact-grid">
+          <div class="contact-card">
+            <span>contact details</span>
+            <h2>Visit or Order Now</h2>
+            <p>
+              Near Bhalchandra Complex, Sudarshan Cross Lane, Navghar Rd,
+              Bhayandar East, Mira Bhayandar, Maharashtra 401105
+            </p>
+            <div class="contact-meta">
+              <div>
+                <strong> Address</strong><br />Near Bhalchandra Complex,<br />Sudarshan
+                Cross Lane,<br />Navghar Rd,<br />Bhayandar East,<br />Mira
+                Bhayandar,<br />Maharashtra 401105
+              </div>
+              <div>
+                <strong> Phone</strong><br /><a href="tel:+918898227569"
+                  >+91 88982 27569</a
+                >
+              </div>
+            </div>
+            <div class="contact-actions">
+              <a class="btn btn-primary" href="tel:+918898227569">Call Now</a>
+              <a
+                class="btn btn-secondary"
+                href="https://wa.me/918898227569"
+                target="_blank"
+                rel="noopener"
+                >WhatsApp Now</a
+              >
+            </div>
+          </div>
+          <div class="map-card">
+            <iframe
+              title="Google Map"
+              src="https://www.google.com/maps/place/SAI+MANDAR+CHINESE+CORNER/@19.310613,72.8568133,17z/data=!3m1!4b1!4m6!3m5!1s0x3be7b1d5b507b2b9:0x6c2fe29d07197b9f!8m2!3d19.310613!4d72.8593882!16s%2Fg%2F11v3ns9jj0?entry=ttu&g_ep=EgoyMDI2MDUzMS4wIKXMDSoASAFQAw%3D%3D"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <h3>SAI MANDAR CHINESE CORNER</h3>
+          <p>Premium street-style Chinese food in Bhayandar.</p>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <p><a href="tel:+918898227569">+91 88982 27569</a></p>
+        </div>
+      </div>
+      <div class="footer-note">
+        &copy; <span id="year"></span> SAI MANDAR CHINESE CORNER. All rights
+        reserved.
+      </div>
+    </footer>
+
+    <div id="popup" class="popup-overlay hidden">
+      <div class="popup-card">
+        <button class="popup-close" aria-label="Close popup">×</button>
+        <span>Bulk &amp; Party Orders Available</span>
+        <p>Contact us on WhatsApp for Bulk and Party Orders.</p>
+        <div class="popup-actions">
+          <a class="btn btn-primary" id="popup-whatsapp" href="#"
+            >Order On WhatsApp</a
+          >
+          <button class="btn btn-secondary" id="popup-close">Close</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js" defer></script>
+  </body>
+</html>
